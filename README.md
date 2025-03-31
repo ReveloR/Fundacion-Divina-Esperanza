@@ -19,7 +19,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Contacto">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ayuda">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ayuda">Cómo Ayudar</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
                 </ul>
@@ -129,14 +129,11 @@
     <section id="redes-sociales" class="container py-5 text-center">
         <h2>Síguenos en nuestras Redes Sociales</h2>
         <p>Si quieres seguirnos y visitar nuestras redes sociales, síguelas aquí:</p>
-        <a href="#" class="me-3">
-            <img src="facebook-logo.png" alt="Facebook" width="50">
-        </a>
-        <a href="#">
-            <img src="instagram-logo.png" alt="Instagram" width="50">
-        </a>
+        <img src="facebook-logo.png" alt="Facebook" width="50">
+        <img src="instagram-logo.png" alt="Instagram" width="50">
     </section>
 </body>
 </html>
+
 
 
