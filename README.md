@@ -116,9 +116,6 @@
                 </div>
             </div>
         </div>
-                </div>
-            </div>
-        </div>
     </section>
     <section id="ubicacion" class="container py-5">
         <h2>Ubicación</h2>
