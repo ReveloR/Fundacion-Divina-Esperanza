@@ -34,7 +34,7 @@
     <!-- Sección Nosotros -->
     <section id="nosotros" class="container py-5">
         <h2>Nosotros</h2>
-        <p>Somos una fundación dedicada a ayudar a la comunidad...</p>
+        <p>Somos una entidad para al servicio del adulto mayor sin ánimo de lucro, la cual ampara a 30 personas de la tercera edad, brindándoles y dándoles una mejor calidad de vida. Es por ello que acudimos a personas caritativas, con buen corazón y bondadosas para que nos tengan en cuenta para poder seguir albergando a estas personas mayores que no tienen los recursos y su gran mayoría ni tienen personas que se hagan responsables de ellos.</p>
     </section>
     <!-- Sección Proyectos -->
     <section id="proyectos" class="bg-light py-5">
