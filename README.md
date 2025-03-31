@@ -30,46 +30,81 @@
         <h1>Bienvenidos a Fundación Divina Esperanza</h1>
         <p>Trabajando juntos por un futuro mejor</p>
     </header>
-    <section id="nosotros" class="container py-5">
-        <h2>Nosotros</h2>
-        <p>Somos una entidad para al servicio del adulto mayor sin ánimo de lucro, la cual ampara a 30 personas de la tercera edad, brindándoles y dándoles una mejor calidad de vida. Es por ello que acudimos a personas caritativas, con buen corazón y bondadosas para que nos tengan en cuenta para poder seguir albergando a estas personas mayores que no tienen los recursos y su gran mayoría ni tienen personas que se hagan responsables de ellos.</p>
-    </section>
-    <section id="proyectos" class="bg-light py-5">
-        <div class="container">
-            <h2>Proyectos</h2>
-            <p>Conoce nuestros programas y actividades...</p>
-        </div>
-    </section>
     <section id="ayuda" class="container py-5">
         <h2>Cómo Ayudar</h2>
-        <p>Puedes apoyarnos con donaciones, voluntariado...</p>
-    </section>
-    <section id="contacto" class="bg-light py-5">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Escríbenos para más información...</p>
+        <div class="accordion" id="accordionAyuda">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Donaciones Monetarias
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAyuda">
+                    <div class="accordion-body">
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Número de Celular</label>
+                                <input type="tel" class="form-control" id="telefono" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="monto" class="form-label">Monto a Donar</label>
+                                <input type="number" class="form-control" id="monto" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Ir a PSE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Donaciones Físicas
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionAyuda">
+                    <div class="accordion-body">
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="nombreDonante" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombreDonante" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correoDonante" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correoDonante" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefonoDonante" class="form-label">Número de Celular</label>
+                                <input type="tel" class="form-control" id="telefonoDonante" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tipoDonacion" class="form-label">Tipo de Donación</label>
+                                <select class="form-control" id="tipoDonacion" required>
+                                    <option value="aseo">Utilidad de Aseo</option>
+                                    <option value="higiene">Aseo Personal</option>
+                                    <option value="muebles">Muebles</option>
+                                    <option value="mercado">Mercado/Alimentación</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="descripcionDonacion" class="form-label">Descripción de la Donación</label>
+                                <textarea class="form-control" id="descripcionDonacion" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="ubicacion" class="container py-5">
-        <h2>Ubicación</h2>
-        <p>Nos encontramos en Calle 41 bis sur # 1b - 09, Barrio San Martín de Loba, Localidad de San Cristóbal, Bogotá, Colombia.</p>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen 
-                src="https://www.google.com/maps?q=Calle+41+bis+sur+%23+1b+-+09,+San+Mart%C3%ADn+de+Loba,+San+Crist%C3%B3bal,+Bogot%C3%A1,+Colombia&output=embed">
-            </iframe>
-        </div>
-    </section>
-    <section id="redes" class="bg-light py-5 text-center">
-        <div class="container">
-            <h2>Síguenos en nuestras redes sociales</h2>
-            <p>Si quieres seguirnos y visitar nuestras redes sociales, síguelas aquí:</p>
-            <a href="#" target="_blank"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/facebook.svg" alt="Facebook" width="30"></a>
-            <a href="#" target="_blank"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/instagram.svg" alt="Instagram" width="30"></a>
-        </div>
-    </section>
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Fundación Divina Esperanza. Todos los derechos reservados.</p>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
