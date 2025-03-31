@@ -85,18 +85,6 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingVoluntariado">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVoluntariado" aria-expanded="false" aria-controls="collapseVoluntariado">
-                        Voluntariado
-                    </button>
-                </h2>
-                <div id="collapseVoluntariado" class="accordion-collapse collapse" aria-labelledby="headingVoluntariado" data-bs-parent="#accordionAyuda">
-                    <div class="accordion-body">
-                        Únete a nuestro equipo de voluntarios y ayúdanos a hacer la diferencia.
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <section id="ubicacion" class="container py-5">
